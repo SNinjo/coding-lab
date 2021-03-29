@@ -1,0 +1,71 @@
+<head>
+    <title> coding-lab </title>
+    <link id="css" rel="stylesheet" type="text/css" href="index.css">
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="index.js"></script>
+    <style>
+        #nav02 {
+            font-weight: 600;
+        }
+    </style>
+    <script>
+        file = "indexEN.html";
+    </script>
+</head>
+<body>
+    <main>
+        <header>
+            <img id="logo" src="img/logo.png" onclick="reload()">
+            <nav>
+                <ul id="nav01">
+                    <li> Lab </li><li class="divider"> | </li>
+                    <li><a href="reserve.html" target="_blank"> Reservation </a></li><li class="divider"> | </li>
+                    <li><a href="shop.html" target="_blank"> Shopping online </a></li><li class="divider"> | </li>
+                    <li onclick="popupWindow()"> Contact </li>
+                    <li>
+                        <select id="selColorMode" onchange="selColorMode(this.options.selectedIndex)">
+                            <option value="" disabled selected hidden> Color Mode </option>
+                            <option> light </option>
+                            <option> dark </option>
+                        </select>
+                        <select id="selLanguage" onchange="selLanguage(this.options.selectedIndex)">
+                            <option value="" disabled selected hidden> Language </option>
+                            <option> 中文 </option>
+                            <option> English </option>
+                        </select>
+                    </li>
+                </ul>
+                <ul id="nav02">
+                    <li> Summary </li><li class="divider"> &ensp; </li>
+                    <li> Introduction </li><li class="divider"> &ensp; </li>
+                    <li onclick="changeContent(1)"> Goal </li><li class="divider"> &ensp; </li>
+                    <li id="WTF" onclick="changeContent(2)"> Story </li>
+                </ul>
+            </nav>
+        </header>
+        <img id="content" src="img/img01.jpg">
+    </main>
+    <footer>
+        <ul id="nav03">
+            <li></li>
+        </ul>
+        <seciton id="copyright"> 
+            COPYRIGHT © SNinjo ALL RIGHTS RESERVED 
+            <a href="https://github.com/SNinjo/coding-lab" target="_blank"><img id="github" src="img/github.png"></a>
+        </seciton>
+    </footer>
+
+    <div id="overlay" onclick="closeWindow()"></div>
+    <div id="popupWindow">
+        <section id="text">
+            <br>
+            <h1> Contact Us </h1>
+            <p> Dear coders, Thank you for your to coding-lab website, If you have the demand to provide valuable advice to us, you are welcome to contact us, thank you. </p>
+            <br><hr>
+            <h1> Contact Information </h1>
+            <p> Email: CodingLab@gmail.com </p>
+            <p> Address: 燕師大 (高雄市燕巢區深中路62號) </p>
+            <img id="THX" src="img/img03.webp">
+        </section>
+    </div>
+</body>

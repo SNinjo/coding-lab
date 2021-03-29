@@ -1,0 +1,63 @@
+<head>
+    <title> coding-lab </title>
+    <link id="css" rel="stylesheet" type="text/css" href="index.css">
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <main>
+        <header>
+            <img id="logo" src="img/logo.png" onclick="reload()">
+            <nav>
+                <ul id="nav01">
+                    <li> 實驗室 </li><li class="divider"> | </li>
+                    <li><a href="reserve.html" target="_blank"> 線上預約 </a></li><li class="divider"> | </li>
+                    <li><a href="shop.html" target="_blank"> 線上購物 </a></li><li class="divider"> | </li>
+                    <li onclick="popupWindow()"> 聯絡我們 </li>
+                    <li>
+                        <select id="selColorMode" onchange="selColorMode(this.options.selectedIndex)">
+                            <option value="" disabled selected hidden> 版面配色 </option>
+                            <option> 明亮 </option>
+                            <option> 黑暗 </option>
+                        </select>
+                        <select id="selLanguage" onchange="selLanguage(this.options.selectedIndex)">
+                            <option value="" disabled selected hidden> 語言 </option>
+                            <option> 中文 </option>
+                            <option> English </option>
+                        </select>
+                    </li>
+                </ul>
+                <ul id="nav02">
+                    <li> 簡介 </li><li class="divider"> &ensp; </li>
+                    <li> 介紹 </li><li class="divider"> &ensp; </li>
+                    <li onclick="changeContent(1)"> 願景 </li><li class="divider"> &ensp; </li>
+                    <li id="WTF" onclick="changeContent(2)"> 故事 </li>
+                </ul>
+            </nav>
+        </header>
+        <img id="content" src="img/img01.jpg">
+    </main>
+    <footer>
+        <ul id="nav03">
+            <li></li>
+        </ul>
+        <seciton id="copyright"> 
+            COPYRIGHT © SNinjo ALL RIGHTS RESERVED 
+            <a href="https://github.com/SNinjo/coding-lab" target="_blank"><img id="github" src="img/github.png"></a>
+        </seciton>
+    </footer>
+
+    <div id="overlay" onclick="closeWindow()"></div>
+    <div id="popupWindow">
+        <section id="text">
+            <br>
+            <h1> 聯絡我們 </h1>
+            <p> 親愛的 coder 您好，感謝您蒞臨本網頁，若有任何意見歡迎傳達給我們，謝謝! </p>
+            <br><hr>
+            <h1> 聯絡方式 </h1>
+            <p> 信箱: CodingLab@gmail.com </p>
+            <p> 地點: 燕師大 (高雄市燕巢區深中路62號) </p>
+            <img id="THX" src="img/img03.webp">
+        </section>
+    </div>
+</body>
