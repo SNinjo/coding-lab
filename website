@@ -1,7 +1,7 @@
 Project01
   目的: 練習 html, css
   時程: 1個星期
-  範例: https://www.thelalu.com.tw/zh-tw/Explore
+  範例: <a href="https://www.thelalu.com.tw/zh-tw/Explore">https://www.thelalu.com.tw/zh-tw/Explore</a>
 
 Project02
   目的: 練習 html, css
@@ -15,10 +15,11 @@ Project03
   其他資源:
     RWD -             https://tw.alphacamp.co/blog/rwd-responsive-web-design-introduction
     BootStrap -       https://getbootstrap.com/
+    BootStrap 介紹 -  https://tw.alphacamp.co/blog/bootstrap-4-introduction
     Grid System(bs4)- http://www.w3big.com/zh-TW/bootstrap/bootstrap-grid-system.html
     
 Project04
   目的: 學習 Javascript、動態效果
   時程: 1個星期
-  範例: 
+  範例: https://github.com/SNinjo/coding-lab/tree/main/website04
   說明: 製作單人網頁遊戲
