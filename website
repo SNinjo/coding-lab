@@ -1,12 +1,12 @@
 Project01
   目的: 練習 html, css
   時程: 1個星期
-  範例: <a href="https://www.thelalu.com.tw/zh-tw/Explore">https://www.thelalu.com.tw/zh-tw/Explore</a>
+  範例: https://www.thelalu.com.tw/zh-tw/Explore
 
 Project02
   目的: 練習 html, css
   時程: 2個星期
-  範例: https://www.thelalu.com.tw/zh-tw/Explore
+  範例: https://codepip.com/
   
 Project03
   目的: 學習套版(BootStrap)、響應式網頁(RWD)
@@ -14,6 +14,7 @@ Project03
   範例: https://mopcon.org/2020/
   其他資源:
     RWD -             https://tw.alphacamp.co/blog/rwd-responsive-web-design-introduction
+    CSS Media -       https://www.oxxostudio.tw/articles/201810/css-media-queries.html
     BootStrap -       https://getbootstrap.com/
     BootStrap 介紹 -  https://tw.alphacamp.co/blog/bootstrap-4-introduction
     Grid System(bs4)- http://www.w3big.com/zh-TW/bootstrap/bootstrap-grid-system.html
