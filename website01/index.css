@@ -9,7 +9,7 @@ body {
 main {
     margin: 0px auto;
     width: 1100px;
-    height: 860px;
+    height: 900px;
     background-color: white;
 }
 
@@ -65,9 +65,6 @@ li {
     width: 100px; 
     border: 2px solid #cfcfcf;
 }
-#WTF {
-    cursor: help;
-}
 
 a, a:link, a:visited{
     text-decoration: none; /* 去除底線 */
@@ -86,6 +83,32 @@ a:hover, li:hover {
     height: 625px;
 }
 
+.content {
+    display: none;
+    font-family: DFKai-sb;
+}
+#img03 {
+    display: block;
+    margin: -10px auto;
+    width: 1000px;
+}
+#text03 {
+    margin: -40px 80px;
+    font-size: 15px;
+    color: white;
+}
+#content04 {
+    margin: 50px 100px;
+}
+#img04 {
+    float: right;
+    width: 460px;
+    height: 312px;
+}
+#text04 {
+    margin: 60px 0 0 0;
+    width: 400px;
+}
 
 footer {
     margin: 25 auto;

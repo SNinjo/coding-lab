@@ -13,18 +13,27 @@ function reload() {
 }
 
 function changeContent(index) {
-    $("#content").attr("src", "img/img0" + index + ".jpg");
+    $("#content01").hide();
+    $("#content02").hide();
+    $("#content03").hide();
+    $("#content04").hide();
+    $("#content0" + index).show();
+
+    if (index == 3) $("main").css("height", "860px");
+    else if (index == 4) $("main").css("height", "700px");
 }
 
 function selColorMode(index) {
     if (index == 1){
         $("#css").attr("href", "index.css");
         $("#github").attr("src", "img/github.png");
+        $("#text04").attr("src", "img/text04.png");
         ColorMode = "";
     }
     else if (index == 2){
         $("#css").attr("href", "indexDR.css");
         $("#github").attr("src", "img/githubDR.png");
+        $("#text04").attr("src", "img/textDR04.png");
         ColorMode = "?dark";
     }
 }

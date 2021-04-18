@@ -1,0 +1,347 @@
+body {
+    /* 讓 header 服貼置頂 */
+    margin: 0;
+    padding: 0;
+
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #0f63ffe0;
+    height: 80px;
+}
+#logo {
+    margin: auto 5%;
+    width: 130px;
+    height: 70px;
+    float: left;
+}
+
+.btn {
+    color: white;
+    background-color: #ff7c73;
+    border: solid 2px #ff7c73;
+    border-radius: 5px;
+    
+    font-size: 13px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+    /* 去除點擊後的框框 */ 
+    outline: none;
+}
+.btn:hover {
+    background-color: #ff6257;
+    border: solid 2px #ff6257;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    float: left;
+}
+li {
+    margin: 10 20;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#ul01 {
+    width: 450px;
+}
+#ul02 {
+    width: 300px;
+    float: right;
+}
+a, a:link, a:visited{
+    text-decoration: none; /* 去除底線 */
+    color: #ffffffc0; /* 超連結字體顏色 */
+}
+a:hover {
+    color: #ffffff; /* 滑鼠停在超連結中文字的顏色 */
+    cursor: pointer;
+}
+#btnChangeCSS {
+    margin: -20 0;
+    width: 100px;
+    height: 40px;
+}
+
+#section01 {
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(#0f63ffe0 0%, #0f63ffe0 50%, #2a1bffe0 100%);
+}
+#container01 {
+    margin: 0 auto;
+    padding: 50 0;
+    width: 60%;
+    bottom: 0;
+}
+#content01 {
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    width: 400px;
+
+    /* 水平置中 */
+    display: table-cell;
+    vertical-align: middle;
+}
+#btnCREATE {
+    width: 300px;
+    height: 60px;
+    
+    font-size: 15px;
+}
+#slideshow {
+    padding: 0 0 0 25;
+    width: 600px;
+    height: 300px;
+
+    /* 水平置中 */
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#section02 img {
+    width: 100px;
+    height: 100px;
+}
+#section02 h1 {
+    margin: 0 0 50 0;
+    font-size: 30px;
+}
+#section02 h3 {
+    margin: 10 0 0 0;
+    font-size: 20px;
+    color: #0051ff;
+}
+#section02 p {
+    color: #555555;
+}
+#table02 {
+    margin: 100 auto;
+    width: 1200px;
+    table-layout: fixed;
+    text-align: center;
+}
+
+
+#section03 {
+    padding: 0 0 50 0;
+    background-color: #7aa4ff;
+    color: white;
+}
+#table03 {
+    margin: 0 auto;
+    width: 1200px;
+    table-layout: fixed;
+}
+#section03 h1 {
+    padding: 50 0 0 0;
+    text-align: center;
+    font-size: 30px;
+}
+#section03 section {
+    margin: 50 auto;
+    width: 80%;
+    color: white;
+}
+#section03 div {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#section03 img {
+    width: 100%;
+}
+#section03 h2 {
+    padding: 30 0 0 0;
+}
+#section03 table {
+    margin: -15 auto;
+}
+#section03 h5 {
+    padding: 8px;
+    color: white;
+    background-color: #c0c0c0;
+    border-radius: 15px;
+}
+#section03 p {
+    margin: -10 auto;
+    padding: 0 0 50 0;
+    width: 90%;
+}
+#section03 footer {
+    margin: 0;
+    padding: 0;
+    height: 30px;
+}
+#section03 footer div {
+    margin: 0 auto;
+    position: relative;
+    top: 12px;
+    width: 80%;
+    height: 8px;
+    border-radius: 8px;
+}
+#readMore {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+}
+
+#sec01 {
+    background-color: #f5a8ff;
+}
+#sec01 div {
+    background-color: #ef79ff;
+}
+#sec01 footer {
+    background-color: #ea4dff;
+}
+#sec01 footer div {
+    background-color: #a31fb4;
+}
+
+#sec02 {
+    background-color: #ffe983;
+}
+#sec02 div {
+    background-color: #ffcd61;
+}
+#sec02 footer {
+    background-color: #ffae00;
+}
+#sec02 footer div {
+    background-color: #947635;
+}
+
+#sec03 {
+    background-color: #b0fd98;
+}
+#sec03 div {
+    background-color: #5de273;
+}
+#sec03 footer {
+    background-color: #00d123;
+}
+#sec03 footer div {
+    background-color: #028518;
+}
+#sec03 p {
+    margin: -10 auto;
+    padding: 0 0 30 0;
+}
+
+
+#section04 {
+    padding: 0 0 30 0;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+#section04 h1 {
+    margin: 0 0 30 0;
+    padding: 100 0 0 0;
+    font-size: 40px;
+}
+#section04 p {
+    line-height: 10px;
+}
+#table04 {
+    margin: 100 auto;
+    width: 1200px;
+    background-color: white;
+    border-radius: 15px;
+    table-layout: fixed;
+
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);/* 阴影 */
+    border-collapse:collapse;/* 取消表格边框 */
+}
+#table04 td {
+    border-bottom:1px solid #eeeeee;/* 表格横线 */
+}
+#table04 h2 {
+    padding: 30 0 0 0;
+    text-align: center;
+}
+#table04 h3 {
+    padding: 30 0 0 40;
+}
+#table04 h4 {
+    margin: -10 0 30 0;
+    text-align: center;
+}
+#table04 div {
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #ff7c73;
+}
+#table04 div p {
+    padding: 10 0;
+    text-align: center;
+    color: white;
+}
+#table04 p {
+    text-align: center;
+}
+#table04 input {
+    margin: 30 0 50 75;
+    width: 50%;
+    height: 50px;
+}
+
+#table04 table {
+    margin: 20 auto;
+    width: 10%;
+}
+#table04 table td {
+    border-bottom: none;
+}
+.up {
+    margin: -15 0;
+    font-size: 15px;
+}
+.middle {
+    font-size: 35px;
+    font-weight: bold;
+}
+.under {
+    margin: 18 0 0 0;
+    font-size: 15px;
+}
+
+
+footer {
+    padding: 50 200;
+    background-color: #303ca5;
+    color: white;
+}
+footer img {
+    width: 130px;
+    height: 70px;
+}
+
+
+
+/* Flickity 幻燈片套件 */
+.carousel-cell {
+    width: 450px;
+    height: 300px;
+    background: #222;
+    /* center images in cells with flexbox */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel.is-fullscreen .carousel-cell {
+    height: 100%;
+}
+.carousel-cell img {
+    display: block;
+    max-height: 100%;
+}

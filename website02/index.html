@@ -1,0 +1,187 @@
+<head>
+    <title> Codepip </title>
+    <link id="css" rel="stylesheet" type="text/css" href="index.css">
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="flickity-docs/flickity.css" media="screen">
+    <script src="flickity-docs/flickity.pkgd.min.js"></script>
+</head>
+<body>
+    <header id="header">
+        <img id="logo" src="img/logo.png" onclick="javascript:window.location.reload()">
+        <nav>
+            <ul id="ul01">
+                <li><a href="#section03"> Games </a></li>
+                <li><a href="#section04"> Plans </a></li>
+                <li><a href="NotCompleted.html" target="_blank"> Educators </a></li>
+                <li><a href="NotCompleted.html" target="_blank"> Blog </a></li>
+            </ul>
+            <ul id="ul02">
+                <li><a href="NotCompleted.html" target="_blank"> Login </a></li>
+                <li><input id="btnChangeCSS" type="button" class="btn" value="Distortion" onclick="changeCSS()"></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="section01">
+        <div id="container01">
+            <div id="content01">
+                <h1> Learn to code by playing games </h1>
+                <p> Codepip is the platform for your favorite web development games. Gain an edge in your next interview or project. </p>
+                <input id="btnCREATE" type="button" class="btn" value="CREATE A FREE ACCOUNT" onclick="javascript:window.open('NotCompleted.html')">
+            </div>
+            <div id="slideshow">
+                <div class="main-carousel">
+                    <div class="carousel-cell"><img class="carousel-cell-image" src="img/img01.png"></div>
+                    <div class="carousel-cell"><img class="carousel-cell-image" src="img/img02.jpg"></div>
+                    <div class="carousel-cell"><img class="carousel-cell-image" src="img/img03.png"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="section02">
+        <table id="table02">
+            <tr>
+                <td colspan="3"><h1> Create a free account to enjoy these features </h1></td>
+            </tr>
+            <tr>
+                <td><img src="img/img01.png"></td>
+                <td><img src="img/img02.jpg"></td>
+                <td><img src="img/img03.png"></td>
+            </tr>
+            <tr>
+                <td><h3> CHECKPOINTS </h3></td>
+                <td><h3> ACHIEVEMENTS </h3></td>
+                <td><h3> NEW RELEASES </h3></td>
+            </tr>
+            <tr>
+                <td><p> Save your progress and access it from anywhere. </p></td>
+                <td><p> Track and share your in-game achievements. </p></td>
+                <td><p> Discover games that teach the latest coding topics. </p></td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="section03">
+        <h1> Play our coding games </h1>
+        <table id="table03">
+            <tr>
+                <td>
+                    <section id="sec01" onmouseover="showReadMore(this)">
+                        <img src="img/img01.png">
+                        <div>
+                            <h2> Cascade </h2>
+                            <table><tr>
+                                <td><h5> CSS </h5></td>
+                                <td><h5> PRO </h5></td>
+                            </tr></table>
+                            <p> A Stream of rapid-fire CSS microgames </p>
+                        </div>
+                        <footer>
+                            <div></div>
+                        </footer>
+                    </section>
+                </td>
+                <td>
+                    <section id="sec02" onmouseover="showReadMore(this)">
+                        <img src="img/img02.jpg">
+                        <div>
+                            <h2> Code Crunchers </h2>
+                            <table><tr>
+                                <td><h5> JS | MATH </h5></td>
+                                <td><h5> PRO </h5></td>
+                            </tr></table>
+                            <p> A game for learning JavaScript math </p>
+                        </div>
+                        <footer>
+                            <div></div>
+                        </footer>
+                    </section>
+                </td>
+                <td>
+                    <section id="sec03" onmouseover="showReadMore(this)">
+                        <img src="img/img03.png">
+                        <div>
+                            <h2> CSS Surgeon </h2>
+                            <table><tr>
+                                <td><h5> CSS | TRANSFORM </h5></td>
+                                <td><h5> PRO </h5></td>
+                            </tr></table>
+                            <p> A game for learning to scale, rotate, and move elements with CSS transform </p>
+                        </div>
+                        <footer>
+                            <div></div>
+                        </footer>
+                    </section>
+                </td>
+            </tr>
+        </table>
+        <img id="readMore" src="img/readMore.png" onclick="javascript:window.open('NotCompleted.html')" onmouseout="hideReadMore()">
+    </section>
+
+    <section id="section04">
+        <h1> Pricing & plans </h1>
+        <p> Got the fundamentals down? Upgrade to a pro account to access more </p>
+        <p> games and features that will help you reach the next level. </p>
+        <table id="table04">
+            <tr>
+                <td></td>
+                <td><h2> Free </h2></td>
+                <td><h2> Pro </h2><h4> Monthly </h4></td>
+                <td><h2> Pro </h2><h4> Lifetime </h4></td>
+            </tr>
+            <tr>
+                <td><h3> Free Games </h3></td>
+                <td><div><p> ✔ </p></div></td>
+                <td><div><p> ✔ </p></div></td>
+                <td><div><p> ✔ </p></div></td>
+            </tr>
+            <tr></tr>
+                <td><h3> Pro Saving </h3></td>
+                <td><div><p> ✔ </p></div></td>
+                <td><div><p> ✔ </p></div></td>
+                <td><div><p> ✔ </p></div></td>
+            </tr>
+            <tr>
+                <td><h3> Pro Saving </h3></td>
+                <td></td>
+                <td><div><p> ✔ </p></div></td>
+                <td><div><p> ✔ </p></div></td>
+            </tr>
+            <tr>
+                <td><h3> No Ads </h3></td>
+                <td></td>
+                <td></td>
+                <td><div><p> ✔ </p></div></td>
+            </tr>
+            <tr>
+                <td><h3> Pricing </h3></td>
+                <td><table><tr>
+                    <td><p class="up"> $ </p></td>
+                    <td><p class="middle"> 0 </p></td>
+                </tr></table></td>
+                <td><table><tr>
+                    <td><p class="up"> $ </p></td>
+                    <td><p class="middle"> 6 </p></td>
+                    <td><p class="under"> /month </p></td>
+                </tr></table></td>
+                <td><table><tr>
+                    <td><p class="up"> $ </p></td>
+                    <td><p class="middle"> 99 </p></td>
+                </tr></table></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="button" class="btn" value="SIGN UP" onclick="javascript:window.open('NotCompleted.html')"></td>
+                <td><input type="button" class="btn" value="SIGN UP" onclick="javascript:window.open('NotCompleted.html')"></td>
+                <td><input type="button" class="btn" value="SIGN UP" onclick="javascript:window.open('NotCompleted.html')"></td>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+        <img src="img/logo.png" onclick="javascript:window.location.href = '#header'">
+        <p> © 2021 SNinjo. All rights reserved. </p>
+    </footer>
+</body>
