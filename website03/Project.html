@@ -1,0 +1,96 @@
+<head>
+    <title> Project Program </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <link rel="icon" href="img/icon.png" type="image/x-icon">
+    <link id="css" rel="stylesheet" type="text/css" href="index.css">
+    <style>
+        #secContent {
+            height: calc(100% - 130px - 80px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <img id="logo" src="img/logo.png" onclick="javascript: window.location.href='index.html'">
+        <nav id="fixedNav">
+            <a href="index.html"> 首頁 </a>
+            <a href="index.html#divider01"> 介紹 </a>
+            <a href="index.html#divider02"> 功課 </a>
+            <a href="Project.html"> 專案進度 </a>
+            <a href="Vision.html"> 願景 </a>
+            <a href="javascript: void(0);" onclick="popupWindow()"> 聯絡我們 </a>
+        </nav>
+        <div id="fixedMenu" class="dropdown">
+            <img id="imgMenu" src="img/Menu.png" class="btn btn-myStyle dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="index.html"> 首頁 </a>
+                <a class="dropdown-item" href="index.html#divider01"> 介紹 </a>
+                <a class="dropdown-item" href="index.html#divider02"> 功課 </a>
+                <a class="dropdown-item" href="Project.html"> 專案進度 </a>
+                <a class="dropdown-item" href="Vision.html"> 願景 </a>
+                <a class="dropdown-item" href="javascript: void(0);" onclick="popupWindow()"> 聯絡我們 </a>
+            </div>
+        </div>
+    </header>
+    <div id="adjustHeight"></div>
+
+    <section id="secContent">
+        <p id="pContent"> 前置作業準備中... </p>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <h4 class="col-lg-3 col-md-12"> 聯絡我們 </h4>
+                <h5 id="email" class="col-lg-3 col-md-12" onclick="copy('email')"> CodingLab@gmail.com </h5>
+                <h4 class="col-lg-3 col-md-12"> 在這 #Coding-lab </h4>
+                <div id="containerGithub" class="col-lg-3 col-md-12">
+                    <img id="github" src="img/github.png" onclick="javascript: window.open('https://github.com/SNinjo/coding-lab')">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <div id="popupDialog" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document"> 
+           <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"> 提示 </h5>
+                </div>
+                <div class="modal-body">
+                    <p> 已複製信箱! </p> 
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="pwClose()">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="overlay" onclick="closeWindow()"></div>
+    <div id="popupWindow">
+        <section id="pwContent">
+            <br>
+            <h1> 聯絡我們 </h1>
+            <p> 親愛的 coder 您好，感謝您蒞臨本網頁，若有任何意見歡迎傳達給我們，謝謝! </p>
+            <br><hr>
+            <h1> 聯絡方式 </h1>
+            <p> 信箱: CodingLab@gmail.com </p>
+            <p> 地點: 燕師大 (高雄市燕巢區深中路62號) </p>
+            <img id="pwImg" src="img/good.webp">
+        </section>
+    </div>
+
+    
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="News.js"></script>
+    <script src="index.js"></script>
+</body>
