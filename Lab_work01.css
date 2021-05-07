@@ -1,0 +1,140 @@
+.body {
+    background-color:rgb(204, 199, 199);
+    margin:0;
+    padding:0;
+    font-family: "標楷體", serif;
+}
+.wapper {
+    position:relative;
+    background-color:white;
+    width:100%;
+    max-width: 1172px;
+    margin:auto;
+}
+.inerWapper {
+    position:relative;
+    width:90%;
+    max-width:1080px;
+    margin:auto;
+}
+.menu {
+    position:relative;
+    padding-top:15px;
+}
+.icon {
+    width:225px;
+    position:absolute;
+    padding-left:30px;
+    top:15px;
+    font-size:0;
+}
+.iconimg {
+    width:175px;
+    height:175px;
+}
+.menuList {
+    float:right;
+    position:relative;
+    padding-top:15px;
+    display:inline;
+    font-family:"微軟正黑體";
+}
+.top {
+    padding-top:15px;
+}
+.topMenu {
+    display:inline-block;
+    margin:0;
+}
+.topMenu li{
+    display:inline-block;
+    padding-right:25px;
+    color:#dedede;
+    font-size: 20px;
+}
+.space {
+    display:inline-block;
+    padding-right:30px;
+}
+.bottomMenu {
+    margin:0;
+}
+.bottomMenu li{
+    display:inline-block;
+    padding-right:20px;
+    font-size:20px;
+}
+.middle img{
+    width:1080px;
+    height:810px;
+}
+.section {
+    width:1080px;
+}
+.tour {
+    position:relative;
+    float:left;
+    margin:10;
+    margin-left:15px;
+    display:inline-block;
+    width:340px;
+}
+.tour span {
+    color:#dedede;
+    font-size:25px;
+    font-family:'Times New Roman', Times, serif;
+}
+.tour img {
+    width:85px;
+}
+.para {
+    float:right;
+    width:235px;
+}
+.news {
+    padding-left:5px;
+    position:relative;
+    margin-top:10px;
+    display:inline-block;
+    width:340px;
+}
+.news span {
+    color:#dedede;
+    font-size:25px;
+    font-family:'Times New Roman', Times, serif;
+}
+.booking {
+    margin-left:10px;
+    float:right;
+    position:relative;
+    margin:10;
+    display:inline-block;
+    width:340px;
+}
+.booking span {
+    color:#dedede;
+    font-size:25px;
+    font-family:'Times New Roman', Times, serif;
+}
+.footer {
+    width:100%;
+    max-width:1080;
+    margin:auto;
+}
+.footer li {
+    display:inline-block;
+    padding:12px;
+    font-size:16px;
+}
+.right {
+    float:left;
+    width:540px;
+}
+.right p{
+    margin:0;
+}
+.left {
+    text-align:right;
+    float:right;
+    width:540px;
+}
