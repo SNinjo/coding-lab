@@ -271,6 +271,7 @@ a:active {
     background-color: #4e4e4e;
 
     font-family: DFKai-sb;
+    overflow: auto;
 }
 #pwContent {
     margin: 0 auto;
@@ -287,4 +288,3 @@ a:active {
 #email {
     display: inline;
 }
-
