@@ -27,6 +27,17 @@ Work03
     
 Work04
   目的: 學習 Javascript、動態效果
-  時程: 1個星期
+  時程: 2個星期
   範例: https://github.com/SNinjo/coding-lab/tree/main/website04
   說明: 製作單人網頁遊戲(任選)
+  
+Work05
+  目的: 學習物件導向
+  時程: 2個星期
+  範例: https://github.com/SNinjo/coding-lab/tree/main/website05
+  說明: 接續 Work04 的遊戲設計，將其中一個物件、元素改成物件的方式建構，並在遊戲中新增多個此物件。範例中將貪食蛇以物件的方式建構，進而達到多人遊戲的效果
+  
+Work06
+  目的: 學習架設網站、使用安裝包 XAMPP
+  時程: 1個星期
+  說明: 學習如何使用 XAMPP 中 Apache 的功能架設網站，網址前面有出現 HTTP 即可
