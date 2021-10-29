@@ -45,7 +45,7 @@ Work06
 Work07
   目的: 學習網頁前端框架 Vue.js (Vue 3)
   時程: 1個星期
-  說明: 學習如何使用 Vue 3 的功能以及相關套件 (Ex. Router、Vuex、Composition API...)
+  說明: 學習如何使用 Vue 3 的基礎功能以及額外功能 (Ex. Router、Vuex、Composition API...)
   其他資源: 
     基礎懶人包 -         https://developer.mozilla.org/zh-TW/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Vue_getting_started
     詳細介紹 -           https://book.vue.tw/CH1/1-1-introduction.html
