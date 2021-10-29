@@ -39,5 +39,15 @@ Work05
   
 Work06
   目的: 學習架設網站、使用安裝包 XAMPP
-  時程: 1個星期
+  時程: 1天
   說明: 學習如何使用 XAMPP 中 Apache 的功能架設網站，網址前面有出現 HTTP 即可
+
+Work07
+  目的: 學習網頁前端框架 Vue.js (Vue 3)
+  時程: 1個星期
+  說明: 學習如何使用 Vue 3 的功能以及相關套件 (Ex. Router、Vuex、Composition API...)
+  其他資源: 
+    基礎懶人包 -         https://developer.mozilla.org/zh-TW/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Vue_getting_started
+    詳細介紹 -           https://book.vue.tw/CH1/1-1-introduction.html
+    Vuex -              https://medium.com/itsems-frontend/vue-vuex1-state-mutations-364163b3acac
+    Composition API -   https://chupai.github.io/posts/2104/compositionapi/
