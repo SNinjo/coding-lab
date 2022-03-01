@@ -51,3 +51,15 @@ Work07
     詳細介紹 -           https://book.vue.tw/CH1/1-1-introduction.html
     Vuex -              https://medium.com/itsems-frontend/vue-vuex1-state-mutations-364163b3acac
     Composition API -   https://chupai.github.io/posts/2104/compositionapi/
+
+Work08
+  目的: 學習網頁前端框架與物件導向
+  時程: 1個星期
+  說明: 在網頁前端實作貪食蛇遊戲(單機單人 or 多人)
+  範例: https://github.com/SNinjo/Snake/tree/main/3.0
+  條件: 
+        1. 套用 React框架
+        2. 前臺只負責顯示
+        3. 物件導向實作後台的系統 (就算拔掉前端，後台的系統也可以獨立運作)
+        4. 地圖最小 9 * 9
+        5. 蛇要能控制上下左右 (2D)(多人則需要製作碰撞/ 互咬系統)
